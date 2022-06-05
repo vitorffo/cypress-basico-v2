@@ -23,7 +23,7 @@ describe('Central de Atendimento ao CLiente TAT', function() {
 
         cy.contains('.button', 'Enviar').click()
 
-        cy.get('.dfdfmbsdm,fb')
+        cy.get('.success')
             .should('be.visible')
     })
 
